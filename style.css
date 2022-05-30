@@ -1,5 +1,5 @@
 *{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,6 +15,7 @@ ul li{
     color: aliceblue;
     padding: 20px;
     margin-right:40px;
+    font-size: 20px;
 }
 a:hover{
     text-decoration: underline;
@@ -41,4 +42,33 @@ header{
 }
 .title-logo{
     color: white;
+    letter-spacing: 4px;
+}
+.form-div{
+    margin-top: 60px;
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+#title-form{
+    font-size: 40px;
+}
+#email{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+    padding: 5px;
+}
+#submit{
+    color: aliceblue;
+    background-color: #232323;
+    width: 200px;
+    padding: 7px;
+}
+#submit:hover{
+    background-color: #3b3b3b;
 }
