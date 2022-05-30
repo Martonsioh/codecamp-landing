@@ -15,7 +15,7 @@ ul li{
     color: aliceblue;
     padding: 20px;
     margin-right:40px;
-    font-size: 20px;
+    font-size: 17px;
 }
 a:hover{
     text-decoration: underline;
@@ -27,6 +27,9 @@ header{
     background-color: #232323;
     justify-content: space-between;
     width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
     align-items: center;
     height: 70px;
 }
@@ -61,7 +64,7 @@ header{
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 400px;
+    width: 40%;
     padding: 5px;
 }
 #submit{
@@ -97,7 +100,7 @@ margin: 20px;
 .desc{
     height: auto;
     width: 900px;
-    font-size: 20px;
+    font-size: 16px;
 }
 .div-video{
 text-align: center;
@@ -110,6 +113,42 @@ background-color: #232323;
 color: aliceblue;
 padding: 40px;
 }
+
 .div-video iframe{
+    width: 80%;
     padding: 40px;
+ 
+}
+#div-descvideo{
+    display: block;
+    text-align: start;
+    border-style:dashed;
+    border-radius: 20px;
+    border-width: 1px;
+    padding: 20px;
+    width: 100%;
+}
+@media (max-width: 980px) {
+    .nav-links {
+      font-size: 14px;
+      padding:3px;
+      margin-right:20px;
+      text-align: center;
+      justify-content: end;
+    }
+}
+@media (max-width: 600px) {
+    .nav-links {
+    opacity: 0%;
+    overflow: hidden;
+    }
+    .logo{
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    #email{
+        width: 70%;
+    }
 }
