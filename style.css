@@ -127,6 +127,7 @@ padding: 40px;
     border-width: 1px;
     padding: 20px;
     width: 100%;
+    font-size: 17px;
 }
 @media (max-width: 980px) {
     .nav-links {
