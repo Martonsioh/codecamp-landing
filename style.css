@@ -153,3 +153,24 @@ padding: 40px;
         width: 70%;
     }
 }
+
+.card{
+    background: gray;
+    position: relative;
+    border-radius:20px;
+    overflow: hidden;
+    width: 420px;
+    height: 320px;
+}
+
+.card .img-card{
+ position: relative;
+ width:100% ;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding-top:20px ;
+}
+.card .img-card img{
+    height: 200px;
+}
