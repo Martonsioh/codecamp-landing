@@ -91,6 +91,8 @@ header{
     align-items: center;
     padding: 50px;
     font-style: italic;
+    width: 70%;
+    margin: auto;
 }
 #wave-div{
     position: relative;
@@ -153,6 +155,26 @@ padding: 40px;
     }
     #email{
         width: 70%;
+    }
+    .flex-container{
+        display: block;
+        margin: auto;
+        align-content: center;
+        justify-content:center;
+        width: 100%;
+    }
+    .flex-container h2{
+        margin-top: 10px;
+        text-align: center;
+        align-content: center;
+        justify-content:center;
+        
+    }
+    .icon{
+        display: block;
+        margin: auto;
+        align-content: center;
+        justify-content:center;
     }
 }
 .productos{
