@@ -191,7 +191,6 @@ padding: 40px;
     align-items: center;
     justify-content: center;
     margin: auto;
-    border-bottom:3px solid;
 }
 @media (max-width: 810px) {
     .card-section{
@@ -292,8 +291,9 @@ padding: 40px;
     border-radius: 10px;
 }
 footer{
-
+    padding: 12px;
     background-color: #232323;
     color: #fff;
+    font-size: 12px;
     text-align: center;
 }
